@@ -74,31 +74,88 @@
     <article id="post-test-text" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/03/14/test-text/" class="article-date">
-  <time class="dt-published" datetime="2023-03-14T02:46:52.000Z" itemprop="datePublished">2023-03-14</time>
+  <time class="dt-published" datetime="2023-03-14T02:46:52.651Z" itemprop="datePublished">2023-03-14</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/03/14/test-text/">test text</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>hi ~<br>it’s my first blog text</p>
+        <h1 id="搭建我的博客"><a href="#搭建我的博客" class="headerlink" title="搭建我的博客"></a>搭建我的博客</h1><h3 id="实验题目：利用云平台搭建个人博客"><a href="#实验题目：利用云平台搭建个人博客" class="headerlink" title="实验题目：利用云平台搭建个人博客"></a>实验题目：利用云平台搭建个人博客</h3><pre><code>实验日期：2023/3/4
+</code></pre>
+<h3 id="实验目的：熟悉个人博客系统的搭建。"><a href="#实验目的：熟悉个人博客系统的搭建。" class="headerlink" title="实验目的：熟悉个人博客系统的搭建。"></a>实验目的：熟悉个人博客系统的搭建。</h3><pre><code>具体包括：
+参考方案：注册Github账号，搭建Hexo环境并实现个人博客搭建，撰写实验报告。
+
+硬件环境：&amp;nbsp;
+联网的计算机一台
+软件环境：
+Windows
+</code></pre>
+<h3 id="实验步骤与内容："><a href="#实验步骤与内容：" class="headerlink" title="实验步骤与内容："></a>实验步骤与内容：</h3><pre><code>安装所需要的两个软件
+</code></pre>
+<p> <img src="https://i.postimg.cc/tJbgy5vf/image00.jpg"></p>
+<pre><code>GitHub上创建新的仓库；选择命名为github.io结尾；
+</code></pre>
+<p>  <img src="https://i.postimg.cc/yYVNbLZ3/image002.jpg"></p>
+<pre><code>本地配置hexo:
+</code></pre>
+<p>  <img src="https://i.postimg.cc/SQLsdBJp/image003.jpg"></p>
+<p>   <img src="https://i.postimg.cc/zGvGJ3pJ/image004.jpg"></p>
+<pre><code>初始化hexo：
+</code></pre>
+<p>   <img src="https://i.postimg.cc/zBCJdhDk/image005.jpg"></p>
+<pre><code>本地浏览博客：
+</code></pre>
+   <!-- ![](https://i.postimg.cc/Pr2qsW3/image006.jpg) -->
+
+<p> <img src="https://i.postimg.cc/85QpB4G5/image007.jpg"></p>
+<pre><code>设置ssh；生成sshkey:
+</code></pre>
+<p>  <img src="https://i.postimg.cc/JzF4tmdj/image008.jpg"></p>
+<pre><code>在GitHub上对应配置：
+</code></pre>
+<p>  <img src="https://i.postimg.cc/KYgcMVdw/image009.jpg"></p>
+<pre><code>本地验证：
+</code></pre>
+<p> <img src="https://i.postimg.cc/D057hKXJ/image00.jpg"><br>)</p>
+<pre><code>本地绑定与GitHub的用户名和邮箱：
+</code></pre>
+<p>  <img src="https://i.postimg.cc/3N33zwdQ/image0.jpg"></p>
+<pre><code>上传测试博客：
+修改config.yml
+</code></pre>
+<p> <img src="https://i.postimg.cc/pVBWzK6W/image02.jpgg"></p>
+<pre><code>&amp;nbsp;下载上传工具
+</code></pre>
+<p>  <img src="https://i.postimg.cc/BQQqgtrx/image03.jpg"></p>
+<pre><code>&amp;nbsp;上传text-text.md
+</code></pre>
+<p>  <img src="https://i.postimg.cc/267DdfTc/image04.jpg"></p>
+<p> <img src="https://i.postimg.cc/7YsqQw4j/image05.jpg"></p>
+<pre><code>Github对应更新：
+</code></pre>
+<p>  <img src="https://i.postimg.cc/KYLFzTTy/image06.jpg"></p>
+<p> <img src="https://i.postimg.cc/dVhwbpt3/image07.jpg"></p>
+<pre><code>可以使用以github.io结尾网站进行访问：
+</code></pre>
+<p> <img src="https://i.postimg.cc/SxHkkdJr/image08.jpg"></p>
+<pre><code>（后续有更改名称eve为evelululu）
+</code></pre>
+<p>  <img src="https://i.postimg.cc/PxjH8qbv/image09.jpg"></p>
+<h3 id="结论分析与体会："><a href="#结论分析与体会：" class="headerlink" title="结论分析与体会："></a>结论分析与体会：</h3><pre><code>此次实验完成了一个个人博客网站的搭建，并且上传了一段简单的文本来熟悉博客更新的流程。
+通过此次实验，熟悉了git、hexo工具的使用，结合GitHub实现建设博客网页。
+搭建的步骤较多，但是在完成配置之后，维护简单便捷。
+在此实验中，项目源码托管在GitHub上，使用GitHub的pages服务，通过设置index.html为入口展示网页。
+gexo用于生成HTML，pages用于展示。
+这样依托于GitHub这样平台来储存项目源码另一方面个便捷了项目的合作和更新。
+</code></pre>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/14/test-text/" data-id="clf7nm5tp0000dsmu15kr0rpr" data-title="test text" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/03/14/test-text/" data-id="clf7nm5tp0000dsmu15kr0rpr" data-title="" class="article-share-link">Share</a>
       
       
       
@@ -192,7 +249,7 @@
       <ul>
         
           <li>
-            <a href="/2023/03/14/test-text/">test text</a>
+            <a href="/2023/03/14/test-text/">(no title)</a>
           </li>
         
           <li>
